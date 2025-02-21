@@ -1,9 +1,3 @@
-Here’s the **`README.md`** file for your **ATS (Applicant Tracking System)** project. This file provides an overview, setup instructions, and usage details.
-
----
-
-### **📄 `README.md`**
-```md
 # 📝 Applicant Tracking System (ATS)
 
 A simple **Applicant Tracking System (ATS)** built with **FastAPI** (Python) for the backend and **React** (JavaScript) for the frontend. It allows employers to post jobs and applicants to apply.
