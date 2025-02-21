@@ -148,23 +148,4 @@ This project is **open-source** and free to use.
 Want to improve this project? Feel free to submit a PR!
 
 🚀 Happy Coding!
-```
 
----
-
-### **What This README Covers**
-✅ **Project Overview**  
-✅ **Features & Tech Stack**  
-✅ **Setup Instructions for Backend & Frontend**  
-✅ **API Endpoints & Authentication Details**  
-✅ **Database Migration Commands**  
-✅ **Deployment Guide**  
-
----
-
-### **Next Steps**
-1. **Replace `yourusername` in the GitHub link** with your actual username.
-2. **Customize the `.env.example` file** and add a section for environment variables.
-3. **Push this to your GitHub repository** for visibility.
-
-Let me know if you need any modifications! 🚀
