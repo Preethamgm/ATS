@@ -1,0 +1,28 @@
+# ------------------- Application Configuration -------------------
+app:
+  name: "Applicant Tracking System"
+  version: "1.0.0"
+  debug: true  # Set to false in production
+
+# ------------------- Database Configuration -------------------
+database:
+  url: "postgresql://postgres:yourpassword@localhost/ats_db"
+  pool_size: 10
+  max_overflow: 20
+
+# ------------------- Authentication Configuration -------------------
+auth:
+  secret_key: "your_secret_key"  # Change in production
+  algorithm: "HS256"
+  access_token_expire_minutes: 30
+
+# ------------------- API Configuration -------------------
+api:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins: ["http://localhost:3000"]  # Allowed frontend origins
+
+# ------------------- Logging Configuration -------------------
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"

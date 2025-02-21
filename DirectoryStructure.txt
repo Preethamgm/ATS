@@ -1,0 +1,53 @@
+ats/
+│── backend/                 # Python Backend (API)
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models.py        # Database models (SQLAlchemy)
+│   │   ├── routes.py        # API endpoints
+│   │   ├── database.py      # Database connection
+│   │   ├── schemas.py       # Pydantic schemas for validation
+│   │   ├── auth.py          # Authentication (JWT)
+│   │   ├── services.py      # Business logic
+│   │   ├── config.py        # Configurations (database, secrets)
+│   ├── main.py              # Entry point for FastAPI app
+│   ├── requirements.txt     # Dependencies
+│   ├── .env                 # Environment variables
+│
+│── frontend/                # JavaScript Frontend
+│   ├── public/
+|   │── index.html
+|   │── manifest.json
+|   │── robots.txt
+|   │── favicon.ico
+|   │── logo192.png
+|   │── logo512.png
+|
+│   ├── src/
+│   │   ├── components/      # Reusable React components
+│   │   ├── pages/           # Pages (Job Listings, Apply, Admin)
+│   │   ├── services/        # API calls to backend
+│   │   ├── App.js           # Main React app
+│   │   ├── index.js         # React entry point
+│   ├── package.json         # Frontend dependencies
+│
+│── database/                # Database-related files
+│   ├──migrations/
+    │── versions/
+    │   ├── 20250220_abcdef123456_initial_migration.py
+    │   ├── 20250221_987654xyz_add_status_column.py
+    │   ├── 20250222_123abc789_update_applicants_table.py
+    │   └── ... (other migration scripts)
+         
+    │── alembic.ini       # Alembic configuration file
+    │── env.py            # Alembic environment settings
+    │── README            # Description of migrations
+    │── script.py.mako    # Template for new migration scripts
+        
+│
+│── docs/                    # Documentation
+│   ├── README.md            # Project instructions
+│
+│── .gitignore               # Ignore unnecessary files
+│── docker-compose.yml       # Optional Docker setup
+│── config.yaml              # Configurations
+│── .env                     # Environment variables

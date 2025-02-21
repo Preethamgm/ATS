@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.env
+
+# ---- FastAPI ----
+/backend/.env
+/backend/__pycache__/
+/backend/database.db  # Ignore SQLite database if used
+/backend/migrations/  # Exclude migration history if using Alembic
+
+# ---- Alembic ----
+/migrations/versions/*.pyc
+/migrations/versions/__pycache__/
+
+# ---- Node.js / React ----
+node_modules/
+npm-debug.log*
+yarn-error.log
+*.log
+/.eslintcache
+
+# ---- Build Files ----
+/frontend/build/
+/frontend/.parcel-cache/
+/frontend/.next/
+/frontend/dist/
+
+# ---- IDE / Editor Files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ---- Logs & Temp Files ----
+logs/
+*.log
+*.bak
+*.tmp
+*.out
+*.lock
+
+# ---- Docker ----
+/backend/.dockerignore
+/docker-compose.override.yml
+
+# ---- Secrets ----
+/secrets/
